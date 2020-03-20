@@ -21,5 +21,14 @@ public class Main {
         System.out.println("Le cercle de rayon " + unRayon + " a pour périmètre:" + lePerimetre);
         System.out.println("Le cercle de rayon " + unRayon + " a pour surface:" + laSurface);
 
+        System.out.println("Calculons maintenant le périmètre du carré");
+        double unCote;
+        double lePerimetreCarre;
+        Scanner lectureClavierCarre = new Scanner(System.in);
+        System.out.println("Valeur du côté :");
+        unCote = lectureClavier.nextDouble();
+        lePerimetreCarre = 4 * unCote;
+        System.out.println("Le carré de côté " + unCote + " a pour périmètre:" + lePerimetreCarre);
+
     }
 }
